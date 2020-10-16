@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilo.css">
+    <title>Cadastro</title>
+</head>
+<body class="cadastro">
+<h2 align="center" ><img src="Logo.JPG" width="300" height="100"></h2>
+<h1 align="center"><font color="white">Cadastro</font></h1>
+    <form action="enviar.php" method="POST" name="cadastroCliente">
+        <table align="center">
+            <tr>
+                <td>
+                    <label for="nome"><font color="white">Nome:</font></label>
+                </td>
+                <td>
+                    <input type="text" id="nome" name="nome" size="40" maxlength="30" placeholder="Digite seu nome"/>
+                </td>
+            </tr> <br><br>
+
+            <tr>
+                <td>
+                    <label for="email"><font color="white">E-mail:</font></label>
+                </td>
+                <td>
+                    <input type="email" id="email" name="email" size="40" maxlength="30" placeholder="Digite seu e-mail"/>
+                </td>   
+            </tr> <br><br>
+
+            <tr>
+                <td>
+                    <label for="tel"><font color="white">Telefone de contato:</font></label>
+                </td>
+                <td>
+                    <input type="tel" id="tel" name="tel" size="40" maxlength="15" placeholder="(xx) xxxxx-xxxx"/>
+                </td>
+            </tr> <br><br>
+
+            <tr>
+                <td>
+                    <label for="senha"><font color="white">Senha:</font></label>
+                </td>
+                <td>
+                    <input type="password" id="senha" name="senha" size="40" maxlength="10" placeholder="Digite sua senha (MAX. 10 caracteres)"/>
+                </td>
+            </tr> <br><br>
+
+            <tr>
+                <td>
+                    <label for="data"><font color="white">Data de Nascimento:</font></label>
+                </td>
+                <td>
+                    <input type="date" id="data" name="data"/>
+                </td>
+            </tr> <br><br>
+
+            <tr>
+                <td>
+                    <label><font color="white">Receber Notícias no E-mail:</font></label>
+                </td>
+                <td>  <!-- Para o radio, o name precisa ser o mesmo para todas as opções-->
+                    <input type="radio" id="opt" name="opt" value="SIM" />
+                    <label for="opt">SIM</label>
+                    <input type="radio" id="opt" name="opt" value="NAO" checked/>
+                    <label for="opt">NÃO</label>
+                </td>
+            </tr> <br><br>
+
+            <tr>
+                <td>
+                    <label><font color="white">Marque seu Gênero:</font>:</label>
+                </td>
+                <td>
+                    <input type="radio" id="genero" name="genero" value="masculino" />
+                    <label for="genero">Masculino</label>
+                    <br>
+                    <input type="radio" id="genero" name="genero" value="feminino" />
+                    <label for="genero">Feminino</label>
+                    <br>
+                    <input type="radio" id="genero" name="genero" value="outros" />
+                    <label for="genero">Outros</label>
+                </td>
+            </tr> <br><br>
+
+           <tr>
+               <th colspan="2">
+                   <input type="submit" id="enviar" name="enviar" value="ENVIAR"/>
+                   <input type="reset" id="limpar" name="limpar" value="LIMPAR" />
+                   <input type="button" id="salvar" name="salvar" value="SALVAR" />
+               </th>
+           </tr>
+        </table> 
+</body>
+</html>

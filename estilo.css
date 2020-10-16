@@ -1,14 +1,33 @@
 @charset "UTF-8"; 
 
 .loja{
-    background-color: #a2f7ff;
+    background-color: #364286;
+
 }
 .menu{
-    background-color: #a2f7ff;
+    background-color: #6972d8;
 }
 .somos{
-    background-color: #a2f7ff;
+    background-color: #364286;
 }
 .home{
-    background-color: #a2f7ff;
+    background-color: #364286;
+}
+.concessio{
+    background-color: #364286;
+}
+.cadastro{
+    background-color: #364286;
+}
+.toro{
+    background-color: #364286;
+}
+.jeep{
+    background-color: #364286;
+}
+.hilux{
+    background-color: #364286;
+}
+.hrv{
+    background-color: #364286;
 }
